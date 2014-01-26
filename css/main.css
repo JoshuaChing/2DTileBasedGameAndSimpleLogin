@@ -1,0 +1,67 @@
+html
+{
+	background-color:#F3FCFA;
+	font-family: calibri;
+}
+
+#container
+{
+	background-color:#83D2DE;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 10px;
+	border: 2px #26AABF solid;
+}
+
+#inner-container
+{
+	left:25px;
+	top: 100px;
+	position:absolute;
+	line-height: 40px;
+	background-color:#BEE9E1;
+	width: 550px;
+	border: 2px #26AABF solid;
+	border-radius: 10px;
+}
+
+h1
+{
+	text-align: center;
+	
+}
+
+form
+{
+	padding: 5px;
+	text-align: right;
+}
+
+canvas
+{
+	background-color:gray;
+	border: 2px solid black;
+	display:block;
+	margin:0 auto;
+}
+
+.leftcol
+{
+	width: 250px;
+	float: left;
+}
+
+.rightcol
+{
+	width: 250px
+	float:right;
+}
+
+#logout_btn
+{
+	position:absolute;
+	top:550px;
+	left:520px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> jsgame | Login </title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<div id="container">
+	<div id="inner-container">
+		<h1> LOGIN</h1>
+		<form class="leftcol" action="php/checklogin.php" method="post">
+			Username: <input type="text" name="username"> <br>
+			Password: <input type="password" name="password"> <br>
+			<button type ="submit">Log in</button>
+		</form>
+	
+		<form class="rightcol" action ="php/register.php">
+			New Username: <input type="text" name="username"> <br>
+			New Password: <input type="password" name="password"> <br>
+			Retype Password: <input type="password" name="password2"> <br>
+			<button type = "submit">Register</button>
+		</form>
+	</div>
+</div>
+
+</html>
