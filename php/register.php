@@ -29,7 +29,8 @@ else
 	}
 	else
 	{
-		header ('location:http://10.22.199.70/jsgame/login');
+		echo ("<h1>The username you selected already exists. Please select another one.<h1>");
+		//header ('location:http://10.22.199.70/jsgame/login');
 	}
 }
 
