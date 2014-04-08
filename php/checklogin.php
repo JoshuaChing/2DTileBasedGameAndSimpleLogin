@@ -7,7 +7,7 @@ $connection=mysqli_connect("localhost", "root","password","test");
 if (mysqli_connect_errno())
 {
 	echo "Failed to connect to MySQL ".mysqli_connect_error();
-	//header ('location:http://10.22.199.70/jsgame/login');
+	//header ('location:http://127.0.0.1/jsgame/login');
 }
 else
 {
@@ -18,11 +18,11 @@ else
 	$result =mysqli_query($connection,$query);
 	if (mysqli_num_rows($result)==1)
 	{
-		header ('location:http://10.22.199.70/jsgame/game');
+		header ('location:http://127.0.0.1/jsgame/game');
 	}
 	else
 	{
-		//header ('location:http://10.22.199.70/jsgame/login');
+		//header ('location:http://127.0.0.1/jsgame/login');
 		echo ("<h1>Invalid username and password <h1>");
 	}
 }

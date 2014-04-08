@@ -1,3 +1,3 @@
 <?php
-	header ('location:http://10.22.199.70/jsgame/login');
+	header ('location:http://127.0.0.1/jsgame/login');
 ?>

@@ -64,10 +64,18 @@ function playerMovement(){
 	}
 
 	//testing purposes
-	if (keys[38])
-		player.hp++;
-	if (keys[40])
-		player.hp--;
+	if (keys[38]){
+		if (player.hp >= player.mhp) //set maximum hp
+			player.hp = player.mhp;
+		else
+			player.hp++;
+	}
+	if (keys[40]){
+		if (player.hp <= 0) //set minimum hp
+			player.hp = 0;
+		else
+			player.hp--;
+	}
 }
 
 
