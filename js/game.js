@@ -34,7 +34,7 @@ canvas.height = height;
 
 //player movement
 function playerMovement(){
-	if (keys[87]){ //up
+	if (keys[87]){ //down
 		//player.y -= player.speed;
 		if (!(player.yy <= 0 + player.height)){
 			offsety += player.speed;
@@ -55,7 +55,7 @@ function playerMovement(){
 			player.xx -= player.speed;
 		}
 	}
-	else if (keys[83]){ //down
+	else if (keys[83]){ //up
 		//player.y += player.speed;
 		if (!(player.yy >= mheight - player.height - player.height)){
 			offsety -= player.speed;
