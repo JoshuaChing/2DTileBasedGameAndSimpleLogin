@@ -3,7 +3,7 @@
 
 This is a 2D tile map example application using canvas.
 
-It also features a simple NON-SECURE log in page.
+It also features a simple NON-SECURE log in page. <br>
 (would not recommend this method to create log in pages)
 
 Screenshot:
